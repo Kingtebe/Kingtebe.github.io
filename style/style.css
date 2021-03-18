@@ -1,0 +1,88 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: "Ubuntu", Courier;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+body {
+  height: 100vh;
+  background: #282a36;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.profile-card {
+  width: 300px;
+  margin-bottom: 100px;
+  text-align: center;
+}
+
+.card-header {
+  background: rgba(0,0,0,0.7);
+  padding: 60px 40px;
+  padding-top:20px;
+  border-radius: 8px;
+}
+
+.profile {
+  display: inline-block;
+  padding: 8px;
+  margin: auto;
+  border-radius: 50%;
+  background-size: 20% 200%;
+}
+
+.profile img {
+  display: block;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+
+.name {
+  color: #f2f2f2;
+  font-size: 28px;
+  font-weight: 600;
+  margin: 10px 0;
+}
+
+.xx {
+  font-size: 18px;
+  color: white;
+}
+
+.icon {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+.icon a{
+  color: white;
+  width: 56px;
+  font-size: 29px;
+  transition: .3s linear;
+}
+
+.icon a:hover{
+  color: #e66767;
+}
+
+.contact-btn{
+  display: inline-block;
+  padding: 12px 50px;
+  color: white;
+  border: 2px solid #e66767;
+  border-radius: 6px;
+  margin-top: 16px;
+  transition: .3s linear;
+}
+
+.contact-btn:hover{
+  background: #e66767;
+  color: #f2f2f2;
+}
